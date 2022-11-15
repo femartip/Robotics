@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+from kalman_simulation.omnidrive_controller import main
+import rospy as ros
+import sys
+
+if __name__ == '__main__':
+	myargv = ros.myargv(argv=sys.argv)
+	
+	if len(myargv) == 4:
+		main(float(myargv[1]), float(myargv[2]), float(myargv[3]))
+	else:
+		main()

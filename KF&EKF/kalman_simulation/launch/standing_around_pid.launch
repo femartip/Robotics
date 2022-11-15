@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="kalman_simulation" type="omnidrive_controller" name="omni_pid" args="-1.0 0.0 0.0"/>
+</launch>
