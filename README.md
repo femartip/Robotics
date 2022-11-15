@@ -9,3 +9,20 @@
   
   To try this, launch in ros exercise_1_spherical_wheels.launch
   
+  ->KFWheelDiameter.py; Given the previous model, know we do not know the diameter of the wheels and we want to find it with a KF.
+  Result:
+  ![image](https://user-images.githubusercontent.com/99536660/201904145-77c56236-2b68-41ff-acc7-a0bc2833b4a5.png)
+
+  To try this, launch in ros exercise_2_wheel_diameter.launch
+  
+  ->EKF_For_Turtlebot.py; Given the first model, we change the wheels so instead of beeing spherical, they are circular. This enables us two type of motions, rotation and translation. This is a real model of the turtlebot.
+  Result:  
+  ![image](https://user-images.githubusercontent.com/99536660/201904651-cafa17ba-c6f7-4073-8f82-1086f5ad4e05.png)
+
+  To try this, launch in ros exercise_4_normal_wheels.launch
+  
+  ->EKF-Distance&Direction.py; This model only uses the simple translation as in the first model. However know it is not based on beacons, but on distance and direction. This adds more noise.
+  Result:
+  ![image](https://user-images.githubusercontent.com/99536660/201904945-eb1d8816-21ed-4413-9097-69447a14329e.png)
+
+  To try this, launch in ros exercise_5_sensor_model.launch
