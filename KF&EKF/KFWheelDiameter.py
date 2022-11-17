@@ -123,8 +123,8 @@ class KalmanFilterStandingAround:
                       [0., 0., 1.]])
         # ...
         # B = u(t) x(t+1)       , where u is action commanded 
-        B = np.array([[1., 0.],
-                      [0., 1.],
+        B = np.array([[0., 0.],
+                      [0., 0.],
                       [0.,0.]])    
         # v(t) is a Gaussian distribution with standard deviation 0 if U = 0 and standard deviation 0.03
         # if U != 0. We "recalculate" R on every timestep depending on the value of U.
