@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+from slam_simulation.beacons2d_polar import main
+
+if __name__ == '__main__':
+        main()
+
+
