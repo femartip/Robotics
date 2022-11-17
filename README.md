@@ -71,8 +71,8 @@ Model of the world we are working with:
   
   ![image](https://user-images.githubusercontent.com/99536660/202525076-ecf5a731-a948-4c1e-967d-4a6a12be7961.png) *Without merging beacons.
   
-  file:///home/felix/Documents/UGent/Robotics/session_05/supplementary_material_05/session_05_exercises/l_a_13.jpg
-  file:///home/felix/Documents/UGent/Robotics/session_05/supplementary_material_05/session_05_exercises/l_a_50.jpg
+  ![image](https://user-images.githubusercontent.com/99536660/202529009-0288c345-9935-4901-a659-aac0af3f8b0b.png)
+  ![image](https://user-images.githubusercontent.com/99536660/202529097-b49e3735-4892-49d5-9918-eb9d1cb6eb12.png)
   *When merging
   
   To try this, launch in ros exercise_5_env.launch
