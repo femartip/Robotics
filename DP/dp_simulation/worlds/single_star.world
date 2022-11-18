@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    
+    <gui>
+      <grid>false</grid>
+      <camera name="default">
+        <pose>0.25 -4.5 2.5 0 0.5 1.57</pose>
+      </camera>
+    </gui>
+
+    <scene>
+      <ambient>0.8 0.8 0.8 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <grid>false</grid>
+
+    <!-- Add the ground -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://my_ground_plane</uri>
+    </include>
+
+  </world>
+</sdf>

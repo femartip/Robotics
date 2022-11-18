@@ -1,0 +1,17 @@
+material MyGroundPlane/Image
+{
+  technique
+  {
+    pass
+    {
+      receive_shadows on
+
+      texture_unit
+      {
+        texture multiple_stars.png
+        filtering trilinear
+      }
+    }
+  }
+}
+~       
