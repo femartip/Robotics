@@ -91,7 +91,35 @@ Model of the world we are working with:
   
   To try this, launch in ros exercise_6bc_env.launch
   
-
+  ## DP - Dynamic Programming 
   
-
+  Now we are working with a model of a maze where the robot needs to find a way towards the reward (star). The robot can only move N,S,E,W. All the solutions are implemented with dynamic programming.This was simulated using the ROS environment. To try the programms, the "dp_simulation" + "turtlebot3_costum" is needed, and should be placed as a ROS package.
+  ![image](https://user-images.githubusercontent.com/99536660/202760181-95d9ccf6-8463-459f-a0b4-3e969c9ec72f.png)
   
+  ->DP_Simple_Maze.py; Simplest model where robot can change in direction with any cost.
+  Result:
+  
+  ![image](https://user-images.githubusercontent.com/99536660/202760963-89155cca-4c2e-4f7f-bf96-798f483b5cb0.png)
+
+  To try this, launch in ros exercise_1_env.launch
+
+  ->DP_head&inertia.py; In this model the reward function changes, so it is more costly turning that going forwards, this is beacuse more force needs to be applied so that the robot turns. 
+  Result:
+  
+  ![image](https://user-images.githubusercontent.com/99536660/202761581-3d1e9a8b-5fd8-4721-af52-6def534cb40e.png)
+
+  To try this, launch in ros exercise_2a_env.launch
+
+  ->DP_Simple_Maze+Uncertainty.py; This model is based on the simple one, however uncertainty is added to the movement. Usually terrain is not perfect and can cause that one wheel spins faster than another, this could cause that eventough we think we are going in a straight line, we are tilting in another direction.
+  Result:
+  
+  ![image](https://user-images.githubusercontent.com/99536660/202762237-ca4e1f7a-aa7b-475d-a961-d0dafda4bab6.png)
+
+  To try this, launch in ros exercise_2b_env.launch
+
+  ->DP_Simple_Maze+Various_Rewards.py; In this case, instead of only considering there is one reward, there are more than one.
+  Result:
+  
+  ![image](https://user-images.githubusercontent.com/99536660/202762551-0f092151-39a5-4ac3-943d-d84e6ac038e2.png)
+
+  To try this, launch in ros exercise_2b_env.launch
