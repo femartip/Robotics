@@ -93,7 +93,7 @@ Model of the world we are working with:
   
   ## DP - Dynamic Programming 
   
-  Now we are working with a model of a maze where the robot needs to find a way towards the reward (star). The robot can only move N,S,E,W. All the solutions are implemented with dynamic programming.This was simulated using the ROS environment. To try the programms, the "dp_simulation" + "turtlebot3_costum" is needed, and should be placed as a ROS package.
+  - Now we are working with a model of a maze where the robot needs to find a way towards the reward (star). The robot can only move N,S,E,W. All the solutions are implemented with dynamic programming.This was simulated using the ROS environment. To try the programms, the "dp_simulation" + "turtlebot3_costum" is needed, and should be placed as a ROS package.
   ![image](https://user-images.githubusercontent.com/99536660/202760181-95d9ccf6-8463-459f-a0b4-3e969c9ec72f.png)
   
   ->DP_Simple_Maze.py; Simplest model where robot can change in direction with any cost.
