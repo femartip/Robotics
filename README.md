@@ -123,3 +123,6 @@ Model of the world we are working with:
   ![image](https://user-images.githubusercontent.com/99536660/202762551-0f092151-39a5-4ac3-943d-d84e6ac038e2.png)
 
   To try this, launch in ros exercise_2b_env.launch
+
+  ## Kinematic of Robotic Arms 
+  - Jupiter notenook of direct and inverse robot kinematics using the Denavit-Hartenberg framework. 
